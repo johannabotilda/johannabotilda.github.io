@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Here goes meta data -->
+  <meta charset="utf-8" />
+  <title>Dating Generator STHLM</title>
+  <link href="dating.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@normal;500;700;800&display=swap" rel="stylesheet">
+  <html lang="en">
+
+  </html>
+</head>
+
+<!-- Here goes content -->
+
+<body id="content">
+  <div id="everythingbutmodal">
+    <header id="header">
+
+      <img id="logo" src="logo.gif" alt="logotype">
+
+      <svg class="svg" width="100%" height="100%" viewBox="0 0 1511 273" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M952.302 89.5732C823.785 208.17 683.195 136.612 596.63 89.5732C564.044 71.8664 499.01 57.528 443.468 68.556C380.233 81.1115 345.37 119.097 329.632 136.612C274.95 197.466 223.834 174.639 169.107 222.182C93.9774 287.449 32.7538 282.405 8.03588 248.703C-1.83778 235.241 0.167349 215.944 0.16735 196.661L0.167358 -6.60406e-05L1510.99 -5.12365e-10L1511 176.144C1465.89 208.17 1422.5 147.258 1354.14 196.661C1302.2 234.191 1234.2 227.588 1176.31 110.09C1143.27 43.0352 1035.8 12.5221 952.302 89.5732Z" />
+      </svg>
+
+    </header>
+
+    <div id="h1">
+      <h1>I'm taking my date to</h1>
+    </div>
+
+    <div id="date">
+      <h2>cook lebanese food together at home</h2>
+    </div>
+
+    <div id="randombutton">
+      <button href="#" class="link buzz-out-on-hover">Nah, let's do something else</button>
+    </div>
+
+    <button id="filter" class="link buzz-out-on-hover"> <img src="filter_icon.png" alt="filter"
+      id="filter_icon"></button>
+
+    <svg class="svg" id=lowerwave width="100%" height="100%" viewBox="0 0 1440 354" fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M945.447 159.374C1050.87 61.5443 1325 115 1440 227.12L1440 354L0 354L0 115C18 70 58 -33 149.5 11.5C235.515 53.3323 212.622 124.656 187 159.374C112 261 229.5 269.062 306.417 227.12C406.439 172.579 490.087 211.052 565.5 261C640.913 310.948 813.671 281.661 945.447 159.374Z" />
+    </svg>
+
+
+  <footer class="footer">
+    <div id="footer">
+      <p id=topp> When Netflix and chill or a plain old drink don’t make the cut.</p>
+
+      <p class="bottom">If you have suggestions for dates to include, just want to talk, or send love letters, hook us
+        up at:</p>
+
+      <p class="bottom"><a href="mailto:johanna.loov@hyperisland.se">johanna.loov@hyperisland.se</a>, <a
+          href="mailto:rebecca.torseng@hyperisland.se">rebecca.torseng@hyperisland.se</a> & <a
+          href="mailto:emely.morales.rosales@hyperisland.se">emely.morales.rosales@hyperisland.se</a></p>
+
+      <p><strong>©2020</strong></p>
+    </div>
+  </footer>
+  </div>
+
+  <!-- Modal Section-->
+
+  <div class="modal-content" id="modal-content">
+
+    <form action="">
+      <ul>
+        <h3>Weather</h3>
+        <input type="checkbox" id="sunny" name="Sunny" class="checkbox">
+        <label for="Sunny">Sunny</label>
+        <input type="checkbox" id="rainy" name="Rainy" class="checkbox">
+        <label for="Rainy">Rainy</label>
+        <input type="checkbox" id="snowy" name="Snowy" class="checkbox">
+        <label for="Snowy">Snowy</label>
+      </ul>
+
+      <ul>
+        <h3>Budget</h3>
+        <input type="checkbox" id="$$" name="$$" class="checkbox">
+        <label for="$$">$$</label>
+        <input type="checkbox" id="$" name="$" class="checkbox">
+        <label for="$">$</label>
+        <input type="checkbox" id="forfree" name="forfree" class="checkbox">
+        <label for="forfree">For free ¯\_(ツ)_/¯</label>
+      </ul>
+
+      <ul>
+        <h3>Location</h3>
+        <input type="checkbox" id="city" name="city" class="checkbox">
+        <label for="city">In the city</label>
+        <input type="checkbox" id="outsidecity" name="outsidecity" class="checkbox">
+        <label for="outsidecity">Outside the city</label>
+      </ul>
+
+      <ul>
+        <h3>First date?</h3>
+        <input type="checkbox" id="firstdate" name="firstdate" class="checkbox">
+        <label for="firstdate">Yep!</label>
+      </ul>
+
+      <div> 
+        <button id="savebutton" class="link buzz-out-on-hover">Save</button>
+      </div>
+
+    </form>
+    <script src="dating.js"></script>
+</body>
+
+</html>
