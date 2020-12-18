@@ -286,7 +286,7 @@ let activities = [
     tags: ["city", "firstdate", "$", "sunny"],
   },
   {
-    name: "pake a walk in Hagaparken",
+    name: "take a walk in Hagaparken",
     tags: ["outsidecity", "firstdate", "forfree", "sunny"],
   },
   {
