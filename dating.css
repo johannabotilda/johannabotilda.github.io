@@ -119,31 +119,18 @@ margin-top: 30px;
 font-size: 14px;
 }
 
-#box_button:hover{
-background-color: #f5d0e1ec;
-}
 
 #filter{
 background-color: #f5d0e1;
 display: block;
 margin-bottom: 40px;
 margin-right: 50vw;
-
 }
 
 #filter:focus{
 outline: none;
 }
 
-#filter_icon:focus{
-outline: none;
-}
-
-#filter_icon{
-width: 35px;
-padding: 3px;
-cursor: pointer;
-}
 
 .close{
 position: absolute;
@@ -179,6 +166,12 @@ width: fit-content;
 #date{
   width: 79%;
 }
+
+#filterbutton{
+  background-color: #ffffff00;
+  margin-top: 5px;
+}
+
 
 /* BUZZ OUT HOVER*/
 
@@ -277,13 +270,11 @@ animation-timing-function: linear;
 -webkit-animation-iteration-count: infinite;
 animation-iteration-count: infinite;
 outline: none;
-background-color: #2434a9d8;
 }
 
 .buzz-out-on-hover:focus{
   outline: none;
 }
-
 
 .modal-content{
 height: fit-content;
