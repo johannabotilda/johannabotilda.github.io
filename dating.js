@@ -1,6 +1,6 @@
 let btnRandom = document.getElementById("randombutton");
 let result = document.querySelector("h2");
-let filterBtn = document.getElementById("filter_icon");
+let filterBtn = document.getElementById("filterbutton");
 
 let filters = [];
 
@@ -242,7 +242,7 @@ let activities = [
     tags: ["city", "$", "snowy", "rainy"],
   },
   {
-    name: "go see an opera at Kungliga Operan",
+    name: "go see a an opera at Kungliga Operan",
     tags: ["city", "$$", "snowy", "rainy"],
   },
   {
@@ -636,7 +636,7 @@ let activities = [
     tags: ["city", "firstdate", "$", "sunny"],
   },
   {
-    name: "taste each others ice creams at Kennys Gelato",
+    name: "faste each others ice creams at Kennys Gelato",
     tags: ["outsidecity", "firstdate", "$", "sunny"],
   },
   {
