@@ -636,7 +636,7 @@ let activities = [
     tags: ["city", "firstdate", "$", "sunny"],
   },
   {
-    name: "faste each others ice creams at Kennys Gelato",
+    name: "taste each others ice creams at Kennys Gelato",
     tags: ["outsidecity", "firstdate", "$", "sunny"],
   },
   {
