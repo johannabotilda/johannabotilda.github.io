@@ -242,7 +242,7 @@ let activities = [
     tags: ["city", "$", "snowy", "rainy"],
   },
   {
-    name: "go see a an opera at Kungliga Operan",
+    name: "go see an opera at Kungliga Operan",
     tags: ["city", "$$", "snowy", "rainy"],
   },
   {
